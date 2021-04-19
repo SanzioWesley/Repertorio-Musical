@@ -10,8 +10,8 @@ And run `json-server --watch src/assets/data/db.json` in other terminal. Navigat
 
 # Sobre o projeto
 
-Repertório Musical
-Feito pra adicionar as musicas que toco no violão e as que estou aprendendo.
+
+Feito pra adicionar as musicas pra tocar no violão.
 
 ## Layout web
 ![Modelo Web](https://github.com/SanzioWesley/RepertorioMusical/blob/main/src/assets/img/repertorio.PNG)
