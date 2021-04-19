@@ -1,4 +1,4 @@
-# RepertorioMusical
+# Repertório Musical
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.9.
 
@@ -6,22 +6,13 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-## Code scaffolding
+And run `json-server --watch src/assets/data/db.json` in other terminal. Navigate to `http://localhost:3000/musics`
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+# Sobre o projeto
 
-## Build
+Repertório Musical
+Feito pra adicionar as musicas que toco no violão e as que estou aprendendo.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+## Layout web
+![Modelo Web](https://github.com/SanzioWesley/RepertorioMusical/blob/main/src/assets/img/repertorio.PNG)
 
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
