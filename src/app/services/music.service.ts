@@ -54,7 +54,7 @@ export class MusicService {
       )
   }
 
-  // deleta uma music
+  // deleta uma musica
   deleteMusic(music: Music) {
     return this.httpClient.delete<Music>(this.url + '/' + music.id, this.httpOptions)
       .pipe(

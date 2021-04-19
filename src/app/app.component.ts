@@ -20,7 +20,7 @@ export class AppComponent implements OnInit {
     this.getMusics();
   }
 
-  // defini se um funcionario será criado ou atualizado
+  // defini se uma música será criado ou atualizada
   saveMusic(form: NgForm) {
     if (this.music.id !== undefined) {
       this.musicService.updateMusic(this.music).subscribe(() => {
@@ -33,7 +33,7 @@ export class AppComponent implements OnInit {
     }
   }
 
-  // Chama o serviço para obtém todos os funcionarios
+  // Chama o serviço para obtém todas as músicas
   getMusics() {
     this.musicService.getMusics().subscribe((musics: Music[]) => {
       this.musics = musics;
@@ -47,12 +47,12 @@ export class AppComponent implements OnInit {
     });
   }
 
-  // copia o funcionario para ser editado.
+  // copia a música para ser editada.
   editMusic(music: Music) {
     this.music = { ...music };
   }
 
-  // limpa o formulario
+  // limpa o formulário
   cleanForm(form: NgForm) {
     this.getMusics();
     form.resetForm();
