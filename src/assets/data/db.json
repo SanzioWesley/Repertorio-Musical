@@ -1,0 +1,39 @@
+{
+  "musics": [
+    {
+      "cantor": "Charlie Brown Jr",
+      "musica": "Meu novo Mundo",
+      "id": 1
+    },
+    {
+      "musica": "Canção noturna ",
+      "cantor": "Skank",
+      "id": 2
+    },
+    {
+      "musica": "Have You Ever Seen The Rain",
+      "cantor": "Creedence",
+      "id": 3
+    },
+    {
+      "musica": "Cowboy Fora da Lei",
+      "cantor": "Raul Seixas",
+      "id": 4
+    },
+    {
+      "musica": "Pescador de Ilusões",
+      "cantor": "O Rappa",
+      "id": 5
+    },
+    {
+      "musica": "O Vendedor de Sonhos",
+      "cantor": "Augusto Cury",
+      "id": 6
+    },
+    {
+      "musica": "Gostava Tanto de Você",
+      "cantor": "Tim Maia",
+      "id": 7
+    }
+  ]
+}
